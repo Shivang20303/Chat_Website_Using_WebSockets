@@ -1,0 +1,39 @@
+.message-window {
+    height: 400px;
+    /* Adjust the desired height */
+    overflow-y: auto;
+    border: 1px solid #27213c;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f5fbef;
+    border-radius: 8px;
+}
+
+.message {
+    align-self: flex-start;
+    width: 80%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-self {
+    align-self: flex-end;
+    background-color: #e6f2ff;
+    border: 1px solid #b3d1ff;
+}
+
+.message-username {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a352a;
+}
+
+.message-text {
+    font-size: 16px;
+    color: #333;
+}

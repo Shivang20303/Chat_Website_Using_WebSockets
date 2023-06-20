@@ -1,0 +1,36 @@
+.textbar {
+    display: flex;
+    align-items: stretch;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.textbar-input {
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.textbar-input:focus {
+    outline: none;
+}
+
+.textbar-send {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.textbar-send:hover {
+    background-color: #0056b3;
+}
